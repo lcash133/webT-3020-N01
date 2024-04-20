@@ -32,6 +32,9 @@ img {
 .img1 {
     height: 100%;
 }
+.img2 {
+    width: 100%;
+}
 .img3 {
     height: 100%;
     width: 100%;
@@ -67,6 +70,9 @@ main {
         flex-wrap: wrap;
         flex-direction:row;
         max-width: 25%;
+    }
+    .img3 {
+        width: 100%;
     }
 }
 @media(min-width: 1024px) {
