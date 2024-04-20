@@ -29,6 +29,13 @@ header nav ul li button a {
 img {
     display: block;
 }
+.img1 {
+    height: 100%;
+}
+.img3 {
+    height: 100%;
+    width: 100%;
+}
 main {
     width: 100%;
     height: 100%;
@@ -55,61 +62,35 @@ main {
 }
 }
 @media(min-width: 786px) {
-    body {
-        background-color: black;
-        color: white;
-    }
-    header nav {
-        display: block;
-        width: 100%;
-        border-color: white;
-        border-style: solid;
-        border-width: 1%;
-    }
-    header nav ul {
+    .animeStuffContent {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        flex-direction:row;
+        max-width: 25%;
     }
-    header nav ul li {
-        list-style: none;
-        margin: 0 auto;
-    }
-    header nav ul li button {
-        border-color: blue;
-        margin: 0 auto;
-    }
-    header nav ul li button a {
-        font-size: 90%;
-    }
-    img {
-        display: block;
-    }
-    main {
-        width: 100%;
-        height: 100%;
-    }
-    .clickToLearn {
-        font-size: 80%;
-    }
-    #animeStuff {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 5px;
-    }
+}
+@media(min-width: 1024px) {
     .animeStuffContent {
         display: grid;
-        grid-template-columns: 1fr;
-        margin: 10px;
+        grid-template-rows: 1fr 1fr;
     }
-    .animeStuffContentImg {
-        width: 180px;
+    .img1 {
+        height: 100%;
     }
-    .animeStuffContentImg:nth-child(1) {
-        width: 580px;
+    .img3 {
+        height: 100%;
+        width: 100%;
     }
-    .introForAnime {
-        font-size: 2em;
+    .img4 {
+        height: 100%;
+        width: 100%;
     }
+}
+/*@media(min-width: 1484px) {
+    .animeStuffContent {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        max-width: 34%;
     }
+}*/
