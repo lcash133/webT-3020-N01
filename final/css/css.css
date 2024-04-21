@@ -59,7 +59,8 @@ h1 {
     font-family: Bungee Spice;
 }
 .clickToLearn {
-    font-size: 80%;
+    font-size: 95%;
+    color: red;
 }
 #animeStuff {
     display: flex;
