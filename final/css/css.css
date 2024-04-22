@@ -3,7 +3,7 @@
     opacity: 0.0;
 }
 100% {
-    opacity: 1.5;
+    opacity: 1.0;
 }    
 }
 * {
@@ -57,7 +57,7 @@ main {
     height: 100%;
 }
 h1 {
-    font-family: Bungee Spice;
+    font-family: 'Bungee Spice';
 }
 .clickToLearn {
     font-size: 95%;
