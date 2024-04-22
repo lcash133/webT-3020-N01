@@ -33,6 +33,7 @@ header nav ul li button {
     border-color: blue;
     margin: 0 auto;
     font-family: Honk;
+    border-radius: 37%;
 }
 header nav ul li button a {
     font-size: 90%;
